@@ -6,27 +6,34 @@ int
 main ()
 {
   char opr;
-  int m,q;
-  int a, b, c;
-  int n, choice;
-  int matrix1[n][n], matrix2[n][n], result[n][n];
-  float x, y, z;
-  int choie;
-  double angle;
+    int m,q;
+     int a, b, c;
+      int n, choice;
+       int matrix1[n][n]; 
+	int matrix2[n][n]; 
+	 intresult[n][n];
+	  float x, y, z;
+           int choie;
+            double angle;
   
-  printf ("Welcome to scientific calculator Calcumate_v1 \n");
-  start:
+  printf ("WELCOME!\\n"); 
+   printf("TO\n");
+    printf ("SCIENTIFIC\n"); 
+     printf  ("CALCULATOR\n"); 
+      printf("Calcumate_v1 \n");
+//goto function label  
+start:
   printf ("chose your mode\n 1.Simple calculatin \n2.Mtrix calculatins\n 3.Polynomial equations\n 4. Trigonometry calcutions\n");
-  scanf ("%d", &m);
+ 	 scanf ("%d", &m);
   switch (m)
 	{
 	case 1: ///simple
 	  {
       printf("\nWelcome to simple mode\n");
-		printf ("Enter 2 numbers for the operations\n");
-		scanf ("%d\n%d", &a, &b);
-		printf ("Enter any operator of the following\n'+'\n'-'\n'*'\n'/'\n");
-		scanf ("%s", &opr);
+	printf ("Enter 2 numbers for the operations\n");
+	 scanf ("%d\n%d", &a, &b);
+	  printf ("Enter any operator of the following\n'+'\n'-'\n'*'\n'/'\n");
+	   scanf ("%s", &opr);
 
 		switch (opr)
 		  {
@@ -83,14 +90,14 @@ main ()
 
 		{
 		  printf ("\nSelect an operation:\n");
-		  printf ("1. Addition\n");
-		  printf ("2. Subtraction\n");
-		  printf ("3. Multiplication\n");
-		  printf ("4. Transpose of matrix 1\n");
-		  printf ("5. Transpose of matrix 2\n");
-		  printf ("6. Exit\n");
-		  printf ("Enter your choice: ");
-		  scanf ("%d", &choice);
+		   printf ("1. Addition\n");
+		    printf ("2. Subtraction\n");
+		     printf ("3. Multiplication\n");
+		      printf ("4. Transpose of matrix 1\n");
+		       printf ("5. Transpose of matrix 2\n");
+		        printf ("6. Exit\n");
+		         printf ("Enter your choice: ");
+		          scanf ("%d", &choice);
 
 		  switch (choice)
 			{
@@ -289,3 +296,8 @@ main ()
 }
   
 //this is scientific calculator made by ayaan.
+/* ╔══╗░░░░╔╦╗░░╔═════╗
+   ║╚═╬════╬╣╠═╗║░▀░▀░║
+   ╠═╗║╔╗╔╗║║║╩╣║╚═══╝║
+   ╚══╩╝╚╝╚╩╩╩═╝╚═════╝
+*/
