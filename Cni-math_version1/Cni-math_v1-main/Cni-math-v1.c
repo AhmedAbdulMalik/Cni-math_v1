@@ -195,9 +195,9 @@ main ()
 	  }
 	case 3:  //poly
     {
-    printf("\nPolynomial eqaution mode\n");
-        printf("Enter coefficient a: ");
-    scanf("%f", &x);
+         printf("\nPolynomial eqaution mode\n");
+            printf("Enter coefficient a: ");
+               scanf("%f", &x);
     
     printf("Enter coefficient b: ");
     scanf("%f", &y);
