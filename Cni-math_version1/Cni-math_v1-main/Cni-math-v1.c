@@ -1,4 +1,4 @@
-// Welcome to scientific calculator Cni_math_v1 made by ayaan
+     // Welcome to scientific calculator Cni_math_v1 made by ayaan
 #include<stdio.h>
 #include<math.h>
 
