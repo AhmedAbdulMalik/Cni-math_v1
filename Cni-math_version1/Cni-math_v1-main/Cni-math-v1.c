@@ -59,7 +59,7 @@ main ()
 	case 2: //matrix
 	  {
 		printf ("\nWelcome to matrix mode\n");
-		printf ("Enter the size of the matrices (nxn): ");
+		printf ("Enter the Size of the matrices (nxn): ");
 		scanf ("%d", &n);
 // Input elements for matrix 1
 		printf ("Enter elements of matrix 1:\n");
